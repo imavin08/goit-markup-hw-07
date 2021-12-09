@@ -1,0 +1,41 @@
+.ourwork-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+  margin-bottom: 50px;
+}
+
+.ourwork-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ourwork {
+  padding-bottom: 94px;
+}
+
+.ourwork-link {
+  position: relative;
+}
+
+.ourwork-subtitle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
