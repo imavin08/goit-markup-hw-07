@@ -409,10 +409,10 @@ header {
 
 .clients-item {
   display: flex;
-  width: 170px;
-  height: 92px;
   align-items: center;
   justify-content: center;
+  width: 170px;
+  height: 92px;
 }
 
 .clients-item:not(:last-child) {
@@ -652,11 +652,6 @@ header {
   transition: opacity 1000ms, visibility 1000ms;
 }
 
-.backdrop.is-hidden .backdrop-modal {
-  transform: translateX(2000px);
-  transition: transform 1000ms;
-}
-
 .backdrop-modal {
   width: 528px;
   min-height: 581px;
@@ -669,6 +664,11 @@ header {
   transform: translate(-50%, -50%);
   transition: transform 1000ms;
   padding: 40px 40px;
+}
+
+.backdrop.is-hidden .backdrop-modal {
+  transform: translateX(2000px);
+  transition: transform 1000ms;
 }
 
 .backdrop-close {

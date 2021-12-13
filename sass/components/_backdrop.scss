@@ -5,12 +5,6 @@
   position: fixed;
   top: 0;
   transition: opacity 1000ms, visibility 1000ms;
-  &.is-hidden {
-    .backdrop-modal {
-      transform: translateX(2000px);
-      transition: transform 1000ms;
-    }
-  }
 }
 
 .backdrop-modal {
@@ -26,6 +20,10 @@
   transform: translate(-50%, -50%);
   transition: transform 1000ms;
   padding: 40px 40px;
+  .backdrop.is-hidden & {
+    transform: translateX(2000px);
+    transition: transform 1000ms;
+  }
 }
 
 .backdrop-close {

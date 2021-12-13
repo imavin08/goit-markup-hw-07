@@ -19,10 +19,10 @@
 
 .clients-item {
   display: flex;
-  width: 170px;
-  height: 92px;
   align-items: center;
   justify-content: center;
+  width: 170px;
+  height: 92px;
   &:not(:last-child) {
     margin-right: 30px;
   }
