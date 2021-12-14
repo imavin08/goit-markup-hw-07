@@ -31,32 +31,32 @@
           >
 
           <ul class="header-list">
-            <li class="header-item">
-              <a class="header-link" href="./index.html">Студия</a>
+            <li class="header-list__item">
+              <a class="header-list__link" href="./index.html">Студия</a>
             </li>
-            <li class="header-item">
-              <a class="header-link current" href="./portfolio.html"
+            <li class="header-list__item">
+              <a class="header-list__link current" href="./portfolio.html"
                 >Портфолио</a
               >
             </li>
-            <li class="header-item">
-              <a class="header-link" href="">Контакты</a>
+            <li class="header-list__item">
+              <a class="header-list__link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
 
         <ul class="header-mailtel">
-          <li class="mail-item">
-            <a class="header-mail" href="mailto:info@devstudio.com">
-              <svg class="mailtel-icon" width="16" height="12">
+          <li class="header-mailtel__item">
+            <a class="header-mailtel__mail" href="mailto:info@devstudio.com">
+              <svg class="header-mailtel__icon" width="16" height="12">
                 <use href="./images/symbol-defs.svg#icon-message"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="header-tel" href="tel:+380961111111">
-              <svg class="mailtel-icon" width="10" height="16">
+            <a class="header-mailtel__tel" href="tel:+380961111111">
+              <svg class="header-mailtel__icon" width="10" height="16">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
               +380961111111</a
@@ -273,22 +273,24 @@
             >Web<span class="footer-peace-logo">Studio</span></a
           >
           <address>
-            <ul class="footer-item">
+            <ul class="footer-list">
               <li>
                 <a
-                  class="location"
+                  class="footer-list__location"
                   href="https://goo.gl/maps/q2RPtuhEytgSzPxk9"
                   target="_blank"
                   >г.Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
               <li>
-                <a class="mail" href="mailto:info@example.com"
+                <a class="footer-list__mail" href="mailto:info@example.com"
                   >info@example.com</a
                 >
               </li>
               <li>
-                <a class="tel" href="tel:+380991111111">+38 099 111 11 11</a>
+                <a class="footer-list__tel" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
               </li>
             </ul>
           </address>
@@ -296,30 +298,30 @@
         <div class="join">
           <p class="join-title">присоединяйтесь</p>
           <ul class="join-list">
-            <li class="join-item">
-              <a class="join-link" href=""
-                ><svg class="join-icon" width="20" height="20">
+            <li class="join-list__item">
+              <a class="join-list__link" href=""
+                ><svg class="join-list__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="join-link" href=""
-                ><svg class="join-icon" width="20" height="20">
+            <li class="join-list__item">
+              <a class="join-list__link" href=""
+                ><svg class="join-list__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="join-link" href=""
-                ><svg class="join-icon" width="20" height="20">
+            <li class="join-list__item">
+              <a class="join-list__link" href=""
+                ><svg class="join-list__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="join-link" href=""
-                ><svg class="join-icon" width="20" height="20">
+            <li class="join-list__item">
+              <a class="join-list__link" href=""
+                ><svg class="join-list__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -328,18 +330,18 @@
         </div>
         <div class="footer-mailing">
           <p class="footer-mailing-title">Подпишитесь на рассылку</p>
-          <form action="#" class="footer-mailing-form">
-            <label for="input-email"></label>
+          <form action="#" class="mailing-form">
+            <label for="mailing-form__email"></label>
             <input
               id="input-email"
               name="email"
               type="email"
-              class="footer-mailling-input"
+              class="mailing-form__input"
               placeholder="E-mail"
             />
-            <button type="submit" class="footer-mailling-btn">
+            <button type="submit" class="mailing-form__btn">
               Подписаться
-              <svg class="footer-mailling-icon" width="24" height="24">
+              <svg class="mailing-form__icon" width="24" height="24">
                 <use href="./images/symbol-defs.svg#icon-send"></use>
               </svg>
             </button>

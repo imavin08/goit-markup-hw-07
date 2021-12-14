@@ -17,10 +17,8 @@
   display: flex;
 }
 
-.clients-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.clients-list__item {
+  @extend %flex-setting;
   width: 170px;
   height: 92px;
   &:not(:last-child) {
@@ -28,12 +26,10 @@
   }
 }
 
-.clients-link {
+.clients-list__link {
   width: 170px;
   height: 92px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %flex-setting;
   color: #afb1b8;
   box-sizing: border-box;
   border: 1px solid #afb1b8;
@@ -48,6 +44,6 @@
   }
 }
 
-.clients-icon {
+.clients-list__icon {
   fill: currentColor;
 }

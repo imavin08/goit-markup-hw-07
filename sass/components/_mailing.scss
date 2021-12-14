@@ -12,13 +12,11 @@
   margin-bottom: 20px;
 }
 
-.footer-mailing-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.mailing-form {
+  @extend %flex-setting;
 }
 
-.footer-mailling-input {
+.mailing-form__input {
   margin-right: 12px;
   width: 358px;
   height: 50px;
@@ -46,7 +44,7 @@
   }
 }
 
-.footer-mailling-btn {
+.mailing-form__btn {
   width: 200px;
   height: 50px;
   background: #2196f3;
@@ -58,11 +56,9 @@
   letter-spacing: 0.06em;
   color: #ffffff;
   border-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %flex-setting;
 }
 
-.footer-mailling-icon {
+.mailing-form__icon {
   margin-left: 10px;
 }

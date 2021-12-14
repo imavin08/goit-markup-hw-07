@@ -1,4 +1,4 @@
-.aboutus-title {
+.aboutus-list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -7,7 +7,7 @@
   color: var(--second-title-color);
   margin-bottom: 10px;
 }
-.aboutus-text {
+.aboutus-list__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -19,14 +19,12 @@
   display: flex;
 }
 
-.aboutus-item:not(:last-child) {
+.aboutus-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.aboutus-icon-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.aboutus-list__icon-box {
+  @extend %flex-setting;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
