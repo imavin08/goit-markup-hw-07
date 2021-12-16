@@ -19,8 +19,10 @@
   display: flex;
 }
 
-.aboutus-list__item:not(:last-child) {
-  margin-right: 30px;
+.aboutus-list__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .aboutus-list__icon-box {
